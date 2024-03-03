@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border: 1px solid lightgray;
+  box-shadow: 0 0 5px 1px #0000002a;
+  padding: 2rem;
+}

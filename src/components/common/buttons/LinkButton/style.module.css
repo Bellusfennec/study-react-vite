@@ -1,0 +1,11 @@
+.button {
+  background: none;
+  font: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+}
+.button:hover {
+  color: darkgreen;
+}

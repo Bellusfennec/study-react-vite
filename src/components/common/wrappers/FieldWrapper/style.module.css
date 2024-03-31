@@ -1,0 +1,65 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.required {
+  color: #cc0202;
+  font-weight: bolder;
+}
+.title {
+  margin-bottom: 0.35em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+}
+.label {
+  line-height: 1em;
+}
+.description {
+  color: #a7a6a6;
+  font-size: 0.8em;
+  line-height: 1em;
+}
+.error {
+  margin-top: 0.2em;
+  color: #cc0202;
+  line-height: 1em;
+}
+
+.error:has(.container) {
+  color: #cc0202;
+}
+
+.sizeXS {
+  font-size: 0.7rem;
+}
+.sizeSM {
+  font-size: 0.85rem;
+}
+.sizeMD {
+  font-size: 1rem;
+}
+.sizeLG {
+  font-size: 1.15rem;
+}
+.sizeXL {
+  font-size: 1.3rem;
+}
+
+.radiusXS {
+  border-radius: 0.1rem;
+}
+.radiusSM {
+  border-radius: 0.2rem;
+}
+.radiusMD {
+  border-radius: 0.3rem;
+}
+.radiusLG {
+  border-radius: 0.4rem;
+}
+.radiusXL {
+  border-radius: 0.5rem;
+}
